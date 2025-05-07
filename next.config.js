@@ -3,11 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: 'export',
-  basePath: '/asad', // Replace 'asad' with your GitHub repository name
+  basePath: '/portfolio', // Your GitHub repository name
   images: {
     unoptimized: true,
   },
-  assetPrefix: '/asad/', // Replace 'asad' with your GitHub repository name
+  assetPrefix: '/portfolio/', // Your GitHub repository name
 };
 
 module.exports = nextConfig;

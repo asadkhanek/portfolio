@@ -32,7 +32,7 @@ export default function Hero() {
         
         <div className="flex justify-center order-1 md:order-2">
           <div className="relative w-64 h-64 overflow-hidden rounded-full md:w-80 md:h-80 ring-4 ring-primary">            <Image 
-              src="/asad/images/profile.jpg" 
+              src="/portfolio/images/profile.jpg" 
               alt="Muhammad Asad Khan" 
               fill
               className="object-cover"
