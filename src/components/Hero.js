@@ -12,13 +12,12 @@ export default function Hero() {
             <span className="block">Hello, I'm</span>
             <span className="text-primary">Muhammad Asad Khan</span>
           </h1>
-          
-          <h2 className="mb-4 text-2xl font-medium text-gray-700 dark:text-gray-300">
-            Machine Learning Engineer
+            <h2 className="mb-4 text-2xl font-medium text-gray-700 dark:text-gray-300">
+            Computer Science Student
           </h2>
           
           <p className="mb-6 text-lg md:text-xl text-gray-700 dark:text-gray-300">
-            Crafting intelligent solutions through data science, deep learning, and AI. Transforming complex data into actionable insights and innovative applications.
+            Passionate about web development, software engineering, and problem-solving. Building projects that combine creativity with technical excellence.
           </p>
           
           <div className="flex flex-wrap gap-4">
@@ -32,9 +31,8 @@ export default function Hero() {
         </div>
         
         <div className="flex justify-center order-1 md:order-2">
-          <div className="relative w-64 h-64 overflow-hidden rounded-full md:w-80 md:h-80 ring-4 ring-primary">
-            <Image 
-              src="/images/profile.jpg" 
+          <div className="relative w-64 h-64 overflow-hidden rounded-full md:w-80 md:h-80 ring-4 ring-primary">            <Image 
+              src="/asad/images/profile.jpg" 
               alt="Muhammad Asad Khan" 
               fill
               className="object-cover"
