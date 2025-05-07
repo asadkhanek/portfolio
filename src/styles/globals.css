@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-light text-gray-800 transition-colors duration-300 ease-in-out dark:bg-dark dark:text-gray-100;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold dark:text-white;
+  }
+  
+  /* Improved smooth scrolling */
+  :target {
+    scroll-margin-top: 4rem;
+  }
+  
+  /* Custom selection style */
+  ::selection {
+    @apply bg-primary-200 text-primary-900 dark:bg-primary-800 dark:text-primary-100;
+  }
+  
+  /* Improved focus styles */
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-light dark:ring-offset-dark;
+  }
+  
+  /* Dark mode scrollbar customization */
+  .dark ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  .dark ::-webkit-scrollbar-track {
+    @apply bg-dark-light;
+  }
+  
+  .dark ::-webkit-scrollbar-thumb {
+    @apply rounded bg-gray-600 hover:bg-gray-500;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply rounded-md px-4 py-2 font-medium shadow-sm transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-700 active:bg-primary-800 focus:ring-primary dark:bg-primary-600 dark:hover:bg-primary-500 dark:active:bg-primary-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary-600 active:bg-secondary-700 focus:ring-secondary dark:bg-secondary-600 dark:hover:bg-secondary-500 dark:active:bg-secondary-700;
+  }
+  
+  .card {
+    @apply rounded-lg bg-white p-6 shadow-md transition-all duration-300 dark:bg-dark-paper dark:shadow-dark;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-lg dark:hover:shadow-dark-lg;
+  }
+  
+  .section-heading {
+    @apply mb-8 text-center text-3xl font-bold md:text-4xl dark:text-white;
+  }
+  
+  .section-subheading {
+    @apply mx-auto mb-12 max-w-2xl text-center text-gray-600 dark:text-gray-300;
+  }
+  
+  /* Custom gradient text for highlights */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text font-bold text-transparent;
+  }
+}
