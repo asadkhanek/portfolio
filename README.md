@@ -1,6 +1,6 @@
-# Personal Portfolio Website
+# Muhammad Asad Khan - Portfolio Website
 
-A modern, responsive portfolio website built with Next.js and Tailwind CSS.
+A modern, responsive portfolio website built with Next.js and Tailwind CSS. This showcases my skills, projects, and experience as a Computer Science student.
 
 ## Features
 
@@ -32,8 +32,8 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/asadkhanek/portfolio.git
+cd portfolio
 ```
 
 2. Install dependencies:
@@ -63,11 +63,35 @@ npm run dev
 
 ## Deployment
 
-This portfolio website can be easily deployed on Vercel or Netlify:
+This portfolio is deployed on GitHub Pages.
 
-- [Deploy with Vercel](https://vercel.com/new)
-- [Deploy with Netlify](https://www.netlify.com/with/nextjs/)
+### Live Demo
+
+Check out the live portfolio at [https://asadkhanek.github.io/portfolio/](https://asadkhanek.github.io/portfolio/)
+
+### How to Deploy
+
+To deploy updates to GitHub Pages:
+
+```bash
+# Build the project
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+Alternatively, you can use the included deployment script:
+
+```bash
+# Run the PowerShell deployment script
+.\deploy.ps1
+```
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Feel free to reach out to me at masadkhanek@gmail.com
